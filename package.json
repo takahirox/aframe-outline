@@ -1,0 +1,36 @@
+{
+  "name": "aframe-outline",
+  "version": "1.0.0",
+  "description": "A-Frame Outline component",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run build && npm run build-uglify",
+    "build": "webpack index.js build/aframe-outline.js",
+    "build-uglify": "webpack -p index.js build/aframe-outline.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takahirox/aframe-outline.git"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-vr",
+    "vr",
+    "three",
+    "threejs",
+    "mozvr",
+    "webvr"
+  ],
+  "author": "Takahiro <hogehoge@gachapin.jp> (https://github.com/takahirox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takahirox/aframe-outline/issues"
+  },
+  "homepage": "https://github.com/takahirox/aframe-outline#readme",
+  "devDependencies": {
+    "aframe": "^0.4.0",
+    "three": "^0.83.0",
+    "webpack": "^1.13.3"
+  }
+}
+
