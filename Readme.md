@@ -6,7 +6,7 @@ aframe-outline is an A-Frame Outline component.
 
 ## Properties
 
-### aframe-deferred-renderer
+### aframe-outline
 
 | Properties  | type   | Default Value | Description |
 | ----------- | ------ | ------------- | ----------- |
