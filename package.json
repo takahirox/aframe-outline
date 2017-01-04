@@ -1,6 +1,6 @@
 {
   "name": "aframe-outline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A-Frame Outline component",
   "main": "index.js",
   "scripts": {
