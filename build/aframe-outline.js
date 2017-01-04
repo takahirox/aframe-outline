@@ -67,6 +67,15 @@
 	  },
 
 	  update: function () {
+	    this.setupOutlineEffect();
+	  },
+
+	  play: function () {
+	    // just in case
+	    this.setupOutlineEffect();
+	  },
+
+	  setupOutlineEffect: function () {
 	    if (this.effect !== null) { return; }
 
 	    var data = this.data;
@@ -96,11 +105,6 @@
 	    }
 	    this.effect = outlineEffect;
 	    sceneEl.effect = new THREE.VREffect(outlineEffect);
-	  },
-
-	  play: function () {
-	    // just in case
-	    this.update();
 	  }
 	});
 
