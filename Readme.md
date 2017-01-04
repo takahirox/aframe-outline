@@ -18,10 +18,10 @@ aframe-outline is an A-Frame Outline component.
 
 ### How to use
 
-```
+```html
 <head>
-  <script src="./libs/aframe.min.js"></script>
-  <script src="./build/aframe-outline.min.js"></script>
+  <script src="https://cdn.rawgit.com/aframevr/aframe/v0.4.0/dist/aframe-master.min.js"></script>
+  <script src="https://rawgit.com/takahirox/aframe-outline/master/build/aframe-outline.min.js"></script>
 </head>
 
 <body>
