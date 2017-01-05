@@ -1,6 +1,6 @@
 {
   "name": "aframe-outline",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Two-pass Outline effect component for A-Frame",
   "main": "index.js",
   "scripts": {
