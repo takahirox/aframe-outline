@@ -70,11 +70,6 @@
 	    this.setupOutlineEffect();
 	  },
 
-	  play: function () {
-	    // just in case
-	    this.setupOutlineEffect();
-	  },
-
 	  setupOutlineEffect: function () {
 	    if (this.effect !== null) { return; }
 
