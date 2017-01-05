@@ -1,6 +1,6 @@
 # A-Frame Outline component
 
-aframe-outline is an A-Frame Outline component.
+aframe-outline is two-pass Outline effect component for A-Frame.
 
 ![screenshot](./screenshot.png "screenshot")
 

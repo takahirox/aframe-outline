@@ -1,7 +1,7 @@
 {
   "name": "aframe-outline",
   "version": "1.0.1",
-  "description": "A-Frame Outline component",
+  "description": "Two-pass Outline effect component for A-Frame",
   "main": "index.js",
   "scripts": {
     "all": "npm run build && npm run build-uglify",
@@ -33,4 +33,3 @@
     "webpack": "^1.13.3"
   }
 }
-
