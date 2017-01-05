@@ -70,8 +70,15 @@
 	    this.setupOutlineEffect();
 	  },
 
+	  remove: function () {
+	    this.disableOutlineEffect();
+	  },
+
 	  setupOutlineEffect: function () {
-	    if (this.effect !== null) { return; }
+	    if (this.effect !== null) {
+	      this.effect.enabled = true;
+	      return;
+	    }
 
 	    var data = this.data;
 	    var el = this.el;
@@ -100,6 +107,12 @@
 	    }
 	    this.effect = outlineEffect;
 	    sceneEl.effect = new THREE.VREffect(outlineEffect);
+	  },
+
+	  disableOutlineEffect: function () {
+	    if (this.effect === null) { return; }
+
+	    this.effect.enabled = false;
 	  }
 	});
 
