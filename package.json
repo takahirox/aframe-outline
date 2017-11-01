@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/takahirox/aframe-outline#readme",
   "devDependencies": {
-    "aframe": "^0.4.0",
-    "three": "^0.83.0",
-    "webpack": "^1.13.3"
+    "aframe": "^0.7.1",
+    "three": "^0.87.1",
+    "webpack": "^3.8.1"
   }
 }
