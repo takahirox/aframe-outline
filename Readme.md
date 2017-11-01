@@ -6,7 +6,7 @@ aframe-outline is two-pass Outline effect component for A-Frame.
 
 ## Demo
 
-[Demo](https://cdn.rawgit.com/takahirox/aframe-outline/v1.1.0/index.html)
+[Demo](https://cdn.rawgit.com/takahirox/aframe-outline/v1.1.1/index.html)
 
 ## Properties
 
@@ -26,7 +26,7 @@ To apply outline effect in a scene, add `outline` attribute in `<a-scene>` like 
 
 ```html
 <head>
-  <script src="https://cdn.rawgit.com/aframevr/aframe/v0.4.0/dist/aframe-master.min.js"></script>
+  <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
   <script src="https://rawgit.com/takahirox/aframe-outline/master/build/aframe-outline.min.js"></script>
 </head>
 
