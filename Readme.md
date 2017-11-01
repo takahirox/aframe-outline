@@ -6,7 +6,7 @@ aframe-outline is two-pass Outline effect component for A-Frame.
 
 ## Demo
 
-[Demo](https://cdn.rawgit.com/takahirox/aframe-outline/v1.1.1/index.html)
+[Demo](https://rawgit.com/takahirox/aframe-outline/v1.1.1/index.html)
 
 ## Properties
 
